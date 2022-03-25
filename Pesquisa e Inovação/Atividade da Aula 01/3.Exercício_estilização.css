@@ -1,0 +1,30 @@
+.div_pai1{
+    background-color:  #F6A09A; 
+    width: 500px; 
+    height: 500px;
+}
+
+.div_filho1{
+    background-color:#8A1F1D;
+    height: 50%;
+    width: 50%;
+}
+
+.texto{
+    color: #F2ECB6; 
+    background-color: #067D68;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.div_pai2{
+    width: 50%;
+    height: 50vh;
+    background-color: #4B086D;
+}
+
+.div_filho2{
+    width: 75vh;
+    height: 50%;
+    background-color: #ACC0FE;
+}
