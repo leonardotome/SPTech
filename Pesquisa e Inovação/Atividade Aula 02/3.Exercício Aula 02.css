@@ -1,0 +1,35 @@
+body{
+    background-color: #d3d3d3;
+}
+
+.div_b{
+    background-color: white;
+    height: 500px;
+    width: 50vw;
+    border: 10px dotted black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.div_c{
+    background-color: yellow;
+    height: 50px;
+    width: 30%;
+}
+
+.div_d{
+    background-color: darkorange;
+    height: 100px;
+    width: 30%;
+}
+
+.div_e{
+    background-color: green;
+    color: white;
+    font-size: 30px;
+    padding: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+}

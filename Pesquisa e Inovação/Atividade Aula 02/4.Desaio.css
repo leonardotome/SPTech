@@ -1,0 +1,82 @@
+.container{
+    background-color: #915C5C;
+    height: 200px;
+    width: 70%;
+    border: 10px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container_filha{
+    background-color: white;
+    height: 100px;
+    width: 70%;
+    border: 10px solid darkblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container2{
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.filha_azul{
+    background-color: blue;
+    height: 30px;
+    width: 65%;
+}
+
+.filha_roxa{
+    background-color: purple;
+    height: 30px;
+    width: 35%;
+}
+
+.filha_verde{
+    background-color: green;
+    height: 30px;
+    width: 55%;
+}
+
+.filha_amarela{
+    background-color: yellow;
+    height: 30px;
+    width: 43%;
+}
+
+.container3{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.filha_vermelha{
+    background-color: red;
+    height: 30px;
+    width: 65%;
+}
+
+.filha_azul_claro{
+    background-color: darkcyan;
+    height: 30px;
+    width: 50%;
+}
+
+.filha_verde_claro{
+    background-color: lime;
+    height: 30px;
+    width: 65%;
+}
