@@ -1,177 +1,81 @@
-.header{
-    color: #32b9cd;
-    border-bottom: 3px solid #32b9cd;
-    /* border: 3px solid yellow; */
+.flex-item {
+    width: 100px;
+    height: 100px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
 }
 
-body{
-    margin: 0;
-    background-color: black;
-    font-family: monospace;
+.base {
+    margin-bottom: 15px;
+    background-color: #d0d3d4;
+    border-radius: 4px;
 }
 
-.container{
-    width: 80%;
+.box1 {
+    background-color: #63b1bc;
+}
+
+.box2 {
+    background-color: #1f2a44;
+}
+
+.box3 {
+    background-color: #ed145b;
+}
+
+.box4 {
+    background-color: #efb661;
+}
+
+h1 {
     margin: auto;
 }
 
-.header .container{
+/* Insira o código abaixo */
+
+ .container1 {
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-start;  
+}
+
+.container2 {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: flex-end;  
 }
 
-.navbar{
+.container3 {
     display: flex;
-    list-style: none;
-    justify-content: space-evenly;
-    padding: 0;
-    width: 600px;
-    align-items: center;
-    color: #E3b062;
-    /* border: 3px solid blue; */
-}
-
-.agora{
-    font-weight: 1000;
-}
-
-.banner{
-    height: 500px;
-    background-image: url(imgs/bg-jelly-fish-para-home.png); /* Imagem de fundo na página */
-    background-size: cover; /* "bg size: cover" é para fazer a imagem preencher 100% do espaço do banner. */
-    flex-direction: column;
-}
-
-.banner .container{
-    height: 100%; /* Altura 100% em relação ao banner, que é o seu elemento pai */
-    display: flex; /* Para mexer o elemento, ele precista estar flexivel */
-    justify-content: center; /* Centraliza itens na horizontal */
-    align-items: center; /* Centraliza itens na vertical - metadade da altura da página */
-    color: white;
-}
-
-.banner .container p{
-    width: 280px;
-    margin: 0; /* Remove as margens externas */
-    padding: 0; /* Remove as margens internas */
-    font-size: 36px; /* Tamanho da fonte */
-}
-   
-.banner span{
-    font-weight: bolder; /*Peso da fonte*/
-}
-
-li a{
-    text-decoration: none;/*decoração do texto - "none" - remove a decoração do texto*/
-    color: #E3b062; /*Mantém a cor do "Login" em laranja*/
-}
-
-.form-box{
-    display: flex;
-    flex-direction: column; /* Colocou o botão embaixo da input "senha" */
-    margin-bottom: 20px;
-}
-
-input{ 
-    height: 30px;
-    border: 2px solid #32b9cd;
-    border-radius: 10px;
-}
-
-.btn{ /* botão "Entrar" tela login */
-    font-family: monospace;
-    border: 0; /*Tirou a borda do botão*/
-    border-radius: 9px;
-    font-weight: bolder; /*bold (negrito) com um pouco mais de força*/
-    font-size: 18px;
-    padding: 0; /*Removeu o paddin - espaçamento interno*/
-    color: white;
-    background-color: #E6005A;
-    width: 120px;
-    height: 28px;
-    align-self: center; /*Alinha o próprio elemento que está sendo editado no centro. No caso, alinha o botão entrar no centro de sua div pai.*/
-    margin-right: 20px;
-}
-
-.btn_cadastrar_login{ /* botão cadastrar tela login*/
-    font-family: monospace;
-    border-radius: 10px;
-    font-weight: bolder; /*bold (negrito) com um pouco mais de força*/
-    font-size: 18px;
-    padding: 0; /*Removeu o paddin - espaçamento interno*/
-    color: #E6005A;
-    background-color: white;
-    border: 3px solid #E6005A;
-    width: 120px;
-    align-self: center; /*Alinha o próprio elemento que está sendo editado no centro. No caso, alinha o botão entrar no centro de sua div pai.*/
-}
-
-.btn_cadastrar_login a{
-    text-decoration: none;
-    color: #E6005A;
-}
-
-.banner .card { /* Card é o retângulo branco, que é a div pai das inputs e dos botões */
-    background-color: #B5E5E5;
-    height: 450px;
-    width: 400px;
-    display: flex;
+    flex-direction: row;
     justify-content: center;
-    align-items: center;
-    flex-direction: column; /* Utilizado para deixar todos os elementos dentro do card um embaixo do outro. */
-    color: #E6005A;
 }
 
-.container_botoes{
+.container4 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 10px;
+  
 }
-
-.btn_cadastrar{ /* botão cadastrar da tela cadastro*/
-    font-family: monospace; 
-    border: 0;
-    border-radius: 4px;
-    font-weight: bolder; 
-    font-size: 18px;
-    padding: 0; 
-    color: white;
-    background-color: #E6005A;
-    border-radius: 10px;
-    width: 120px;
-    align-self: center; 
-    margin-right: 20px;
-    height:28px;
-}
-
-.btn_entrar_cadastro{ /* botão entrar da tela Cadastro */
-    font-family: monospace;    
-    border-radius: 4px;
-    font-weight: bolder;  
-    font-size: 18px;
-    padding: 0; 
-    color: #E6005A;
-    border: 3px solid #E6005A;
-    border-radius: 10px;
-    background-color: white;
-    width: 120px;
-    align-self: center; 
-}
-
-.btn_entrar_cadastro a{
-    text-decoration: none;
-    color: #E6005A;
-}
-
-.footer {
-    height: 55px;
-    width: 100%;
-    background-color: #32b9cd;
-    color: white;
-    font-family: monospace;
-    font-size: 15px;
+.container5 {
     display: flex;
-    align-items: flex-start;    
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.container6 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; 
+} 
+
+.container-exercicio-B{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.container-desafio{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row-reverse;    
 }
