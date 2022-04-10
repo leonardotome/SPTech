@@ -1,0 +1,23 @@
+.mychart{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.class_myChart1{
+    position: relative; 
+    height:30vh; 
+    width:30vw;
+}
+
+.class_myChart2{
+    position: relative; 
+    height:30vh; 
+    width:30vw;
+}
+
+.class_myChart3{
+    position: relative; 
+    height:30vh; 
+    width:30vw;
+}
